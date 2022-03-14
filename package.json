@@ -1,0 +1,44 @@
+{
+  "name": "@superset-ui/plugin-chart-mccharts",
+  "version": "1.0.0",
+  "description": "Superset Chart - mc charts",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache-superset/superset-ui.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Superset",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/apache-superset/superset-ui/issues"
+  },
+  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@superset-ui/chart-controls": "^0.17.41",
+    "@superset-ui/core": "^0.17.40",
+    "chart.js": "^3.4.1",
+    "react-chartjs-2": "^3.0.4",
+    "react-tabs": "^3.2.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/react": "^16.0.25",
+    "@types/react-tabs": "^2.3.4",
+    "jest": "^26.0.1"
+  }
+}
