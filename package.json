@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/apache-superset/superset-ui#readme",
   "publishConfig": {
-    "access": "public"
+    "registry":"https://npm.pkg.github.com"
   },
   "dependencies": {
     "@superset-ui/chart-controls": "^0.17.41",
