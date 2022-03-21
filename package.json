@@ -1,5 +1,5 @@
 {
-  "name": "@superset-ui/plugin-chart-mccharts",
+  "name": "@chamathis/plugin-chart-mccharts",
   "version": "1.0.0",
   "description": "Superset Chart - mc charts",
   "sideEffects": false,
